@@ -60,7 +60,7 @@ void main(void) {
 	gl_FragColor = vec4(col, 1.0);
 	
 	// generate a skinny sinewave along the x-axis
-	float t = pow(sin(32.0 * tex.x), 8.0);
+	float t = pow(0.5 + 0.5 * sin(32.0 * tex.x), 8.0);
 	// if the sinewave value is less than the y-axis
 	// toss the fragment away
 	if (t < tex.y)

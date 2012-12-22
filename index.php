@@ -44,11 +44,10 @@
 			}
 		</style>
 		
-		<script type="text/javascript" src="/debug/soar/soar.cat.js"></script>
-
-		<script type="text/javascript" src="/debug/grass/bed.js"></script>
-		<script type="text/javascript" src="/debug/grass/player.js"></script>
-		<script type="text/javascript" src="/debug/grass/grass.js"></script>
+		<script type="text/javascript" src="soar.js"></script>
+		<script type="text/javascript" src="bed.js"></script>
+		<script type="text/javascript" src="player.js"></script>
+		<script type="text/javascript" src="grass.js"></script>
 	
 <?php
 foreach (glob("*.glsl") as $filename) {
